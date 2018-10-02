@@ -1,0 +1,1 @@
+javascript:(function()%7B%20function%20htmlEscape(s)%7Bs=s.replace(/&/g,'&amp;');s=s.replace(/%3E/g,'&gt;');s=s.replace(/%3C/g,'&lt;');return%20s;%7D%20x=window.open();%20x.document.write('%3Cpre%3E'%20+%20htmlEscape('%3Chtml%3E%5Cn'%20+%20document.documentElement.innerHTML%20+%20'%5Cn%3C/html%3E'));%20x.document.close();%20%7D)();
