@@ -1,0 +1,15 @@
+javascript:var%20x=prompt(%22What%20Item?%22);y=prompt(Object.keys(localStorage));localStorage.setItem(x,y);
+
+/*
+localStorage.setItem('Alice', 'Beef');
+localStorage.setItem('Bob', 'Broccoli');
+localStorage.setItem('Eve', 'Cheese');
+
+When you run the script, it will show you
+> Alice, Bob, Eve.
+Typing in Eve will show you "What item?", and have a textbox.
+"Eve" will be set to whatever you type in.
+
+> Eve (What item?)
+> String Beans
+*/
