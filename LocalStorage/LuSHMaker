@@ -1,0 +1,1 @@
+javascript:var%20lshinput=prompt(Object.keys(localStorage));var%20lshdata=prompt(localStorage.getItem(lshinput));alert(%60javascript:localStorage.setItem(%22$%7Blshinput%7D%22,%22$%7Blshdata%7D%22)%60);
